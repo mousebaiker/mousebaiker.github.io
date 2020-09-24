@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="index.html" class="logo">Aleksei Kalinov</a>
+        <nav id="nav">
+          <a href="resume.html">Resume</a>
+          <a href="research.html">Projects</a>
+        </nav>
+        <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+      </div>
+    </header>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Research & Projects</h2>
+						<!-- <p>Sorted by the </p> -->
+					</header>
+
+          <article>
+            <h2>Current work</h2>
+            <ul class="projects">
+              <li class="box">
+                <h4> Particle Aggregation and Fragmentation Simulation with Smoluchowskii Equations</h4>
+                <div class="flex flex-2">
+                  <img class="image" src="images/smol_osc.png"/>
+                  <img class="image" src="images/smol_osc.gif"/>
+                </div>
+                <ol>
+                  <li>Exploring new preconditioning schemes for non-stable stationary solutions <a id="cite_1" href="#ref_1">[1]</a>, <a id="cite_2" href="#ref_2">[2]</a> of Smoluchowskii equations. </li>
+                  <li>Theoretical and practical algorithmic improvements of Monte-Carlo algorithms <a id="cite_3" href="#ref_3">[3]</a>
+                  for specific setup of fragmentation problems. </li>
+                </ol>
+
+                <a href="https://github.com/mousebaiker/SmolOsc/" class="button small alt icon fa-github">Source Code</a>
+              </li>
+
+              <li class="box">
+                <h4> Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering </h4>
+                <img src="images/chirps.png" alt="A dark disk with colored bands. Bands are broken up into colored items."/>
+
+                <ol>
+                  <li> Developing a fully-differentiable numerical model
+                   to obtain high-intensity narrow-band scattering radiation via
+                  laser pulse phase optimization. <a id="cite_4" href="#ref_4">[4]</a></li>
+                  <li>  Visualizing emerging caustics <a id="cite_5" href="#ref_5">[5]</a> in phase-angle domain and
+                    the corresponding refracting media. </li>
+                </ol>
+              </li>
+
+              <li class="box">
+                <h4>Machine Learning-Assisted PAPR Reduction in Massive MIMO </h4>
+                <div class="subheader"> <strong>Aleksei Kalinov</strong>,
+                  Roman Bychkov, Andrey Ivanov, Alexander Osinsky, Dmitry Yarotsky
+                </div>
+                <div class="journal"> <i>Under review in IEEE Wireless Communications Letters</i> </div>
+                <div class="flex flex-3">
+                  <img class="image" src="images/Transmitter.jpg"/>
+                  <img class="image" src="images/qpsk_3d.png"/>
+                  <img class="image" src="images/ubr_med.jpeg"/>
+                </div>
+
+                <p>
+                We propose to substitute a huge table of parameters for peak-to-average power
+                ratio reduction algorithms with a simple low-parametric and computationally-efficient
+                machine learning model, gaining nearly 4 orders of magnitude reduction in space
+                with a cost of additional 16 multiplications and 20 additions.
+                </p>
+              </li>
+
+              <li class="box">
+                <h4> "We're not alone" Shader </h4>
+                <img src="images/shader.png"/>
+                <p>
+                A cute creature on a distant planet pondering over the existence
+                of life in the universe.
+                <br>
+                Every part of the shader, including procedurally generated terrain and the sky
+                is modelled using signed field distance technique [reference] directly in a pixel shader.
+                </p>
+                <a href="https://shadertoy.com/" class="button small alt icon fa-laptop-code">Shadertoy</a>
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <h2>Previous work</h2>
+            <ul class="projects">
+              <li class="box">
+                <h4> CNN-based Post-Processing of Synthetic Objects for Image Augmentation</h4>
+                <div class="subheader"> <strong>Aleksei Kalinov</strong>,
+                  Anton Konushin
+                </div>
+                <div class="journal"> <i>Bachelor's thesis</i> </div>
+                <img src="images/generated_signs.png"/>
+              <p>
+              The thesis investigates an application of generative adversarial
+              networks to generate natural looking images from synthetic ones to enlarge training
+              dataset for traffic sign classifier.
+              <br>
+              Complete system, based on CycleGAN <a href="#ref_6" id="cite_6">[6]</a>, allows
+              to get 7% improvement in classes with no prior real data
+              without sacrifice in total accuracy.
+              </p>
+              <a href="https://www.hse.ru/en/edu/vkr/296303923" class="button small alt icon fa-file">Thesis </a>
+
+              </li>
+
+              <li class="box">
+                <h4>Skin simulation model</h4>
+                <div class="flex flex-2">
+                  <img class="image" src="images/sphere_3.jpg"/>
+                  <img class="image" src="images/flat_skin.gif"/>
+                </div>
+                <p>
+                A multi-layer stiff-spring skin simulation model, following <a href="#ref_7" id="cite_7">[7]</a>.
+                <br>
+                Developed as a Houdini plugin for <a href="http://en.cgfww.com"> CGF Studio</a>.
+                </p>
+
+              </li>
+
+              <li class="box">
+                <h4> Graph Convolutional Networks Modifications </h4>
+                <div class="subheader"> Mikhail Salnikov<sup>*</sup>,
+                   Anastasia Remizova<sup>*</sup>,
+                  <strong>Aleksei Kalinov<sup>*</sup></strong>,
+                   Mark Griguletskii<sup>*</sup>,
+                  Igor Markov<sup>*</sup>
+                </div>
+                <div class="journal"> <i>ML Course project</i> </div>
+
+
+                <div class="flex flex-2">
+                  <img class="image" src="images/acc_cora.png"/>
+                  <img class="image" src="images/trunc_SVD_16.png"/>
+                </div>
+
+                <p>
+                We explore several techniques, such as truncated SVD and weight orthogonalization,
+                that allow the construction of
+                deep graph convolutional networks and preserve the ability of
+                network to train effectively. We conduct experiments with
+                modified DropEdge <a href="#ref_8" id="cite_8">[8]</a> architecture on several public datasets to access
+                the quality improvements.
+                </p>
+                <a href="documents/DropEdge_report.pdf" class="button small alt icon fa-file"> Report </a>
+              </li>
+
+
+              <li class="box">
+                <h4> WESPE Paper Reproduction </h4>
+                <div class="subheader">
+                  <strong>Aleksei Kalinov<sup>*</sup></strong>,
+                   Denis Belyakov<sup>*</sup>
+                </div>
+                <div class="journal"> <i>DL Course project</i> </div>
+
+                <img src="images/wespe.png" alt="Grid of images of various objects. Top row shows original, bottom row shows greyed-out generated images."
+                <p>
+                An independent reproduction of WESPE <a href="#ref_9" id="cite_9">[9]</a> architecture to enhance the
+                quality of images captured on the phone with generative networks.
+                <br>
+                We found that training procedure of the model was very unstable
+                and could not reproduce the results to generate images of a desirable quality.
+                </p>
+                <ul class="actions small">
+                  <li>
+                    <a href="documents/WESPE_Report.pdf" class="button alt small icon fa-file">Report</a>
+                  </li>
+                  <li>
+                    <a href="https://bitbucket.org/mousebaiker/wespe" class="button alt small icon fa-bitbucket">Source Code</a>
+                  </li>
+                </ul>
+              </li>
+
+
+            </ul>
+          </article>
+			</section>
+
+
+      <section>
+        <div class="inner">
+        <h3> References </h3>
+        <a id="ref_1" href="#cite_1">1.</a> Brilliantov, N. V., et al. "Steady oscillations in aggregation-fragmentation processes." Physical Review E 98.1 (2018): 012109.
+        <br>
+        <a id="ref_2" href="#cite_2">2.</a> Matveev, S. A., et al. "Anderson acceleration method of finding steady-state particle size distribution for a wide class of aggregation–fragmentation models." Computer Physics Communications 224 (2018): 154-163.
+        <br>
+        <a id="ref_3" href="#cite_3">3.</a> Kruis, F.E., Maisels, A. and Fissan, H. "Direct simulation Monte Carlo method for particle coagulation and aggregation." AIChE J., 46(2000): 1735-1742.
+        <br>
+        <a id="ref_4" href="#cite_4">4.</a> Seipt, Daniel, Vasily Yu Kharin, and Sergey G. Rykovanov. "Optimizing Laser Pulses for Narrow-Band Inverse Compton Sources in the High-Intensity Regime." Physical review letters 122.20 (2019): 204802.
+        <br>
+        <a id="ref_5" href="#cite_5">5.</a> Kharin, Vasily Yu, Daniel Seipt, and Sergey G. Rykovanov. "Higher-dimensional caustics in nonlinear compton scattering." Physical review letters 120.4 (2018): 044802.
+        <br>
+        <a id="ref_6" href="#cite_6">6.</a> Zhu, Jun-Yan, et al. "Unpaired image-to-image translation using cycle-consistent adversarial networks." Proceedings of the IEEE international conference on computer vision. 2017.
+        <br>
+        <a id="ref_7" href="#cite_7">7.</a> Coull, Alasdair D. "A physically-based muscle and skin model for facial animation." Diss. University of Glasgow, 2006.
+        <br>
+        <a id="ref_8" href="#cite_8">8.</a> Rong, Y., Huang, W., Xu, T., and Huang, J. "Dropedge: Towards deep graph convolutional networks on node classification." In International Conference on Learning Representations. 2020.
+        <br>
+        <a id="ref_9" href="#cite_9">9.</a> Ignatov, Andrey, et al. "Wespe: weakly supervised photo enhancer for digital cameras." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops. 2018.
+
+        </div>
+      </section>
+
+		<!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="flex">
+          <div class="copyright">
+            &copy; Aleksei Kalinov. Design adapted from: <a href="https://templated.co">TEMPLATED</a>.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
