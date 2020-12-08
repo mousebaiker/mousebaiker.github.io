@@ -967,6 +967,11 @@
     .item_title  .place, .gpa {
       font-style: italic;
     }
+      @media screen and (max-width: 736px) {
+        .item_title  .place, .gpa {
+          font-style: normal;
+        }
+      }
 
     .item_title > .company {
       color: #0050b4;
