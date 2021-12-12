@@ -19,7 +19,7 @@
         <a href="index.html" class="logo">Aleksei Kalinov</a>
         <nav id="nav">
           <a href="resume.html">Resume</a>
-          <a href="research.html">Projects</a>
+          <a href="research.html">Research</a>
         </nav>
         <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
       </div>
@@ -34,8 +34,40 @@
 					</header>
 
           <article>
-            <h2>Current work</h2>
+            <h2>Publications</h2>
             <ul class="projects">
+              <li class="box">
+                <h4> CarneliNet: Neural Mixture Model for Automatic Speech Recognition </h4>
+                <div class="subheader"> <strong>Aleksei Kalinov</strong>,
+                  Somshubra Majumdar, Jagadeesh Balam, Boris Ginsburg
+                </div>
+                <div class="journal"> <i>Under review</i> </div>
+                <div>
+                  <img class="image" src="images/CarneliNet.jpeg"/>
+                </div>
+                <p>
+                    End-to-end automatic speech recognition systems have achieved great accuracy by using deeper and deeper models. However, the increased depth comes with a larger receptive field that can negatively impact model performance in streaming scenarios. We propose an alternative approach that we call Neural Mixture Model. The basic idea is to introduce a parallel mixture of shallow networks instead of a very deep network. To validate this idea we design CarneliNet -- a CTC-based neural network composed of three mega-blocks. Each mega-block consists of multiple parallel shallow sub-networks based on 1D depthwise-separable convolutions. We evaluate the model on LibriSpeech, MLS and AISHELL-2 datasets and achieved close to state-of-the-art results for CTC-based models. Finally, we demonstrate that one can dynamically reconfigure the number of parallel sub-networks to accommodate the computational requirements without retraining.
+                </p>
+                <a href="https://arxiv.org/abs/2107.10708" class="button small alt icon fa-file-alt">Preprint</a>
+              </li>
+
+              <li class="box">
+                <h4> Direct Simulation Monte Carlo for New Regimes in Aggregation-Fragmentation Kinetics </h4>
+                <div class="subheader"> <strong>Aleksei Kalinov</strong>,
+                  Alexander Osinsky, Sergey Matveev, Wendi Otieno, Nikolai Brilliantov
+                </div>
+                <div class="journal"> <i>Under review</i> </div>
+                <div class="flex flex-2">
+                  <img class="image" src="images/smol_osc.png"/>
+                  <img class="image" src="images/smol_osc.gif"/>
+                </div>
+                <p>
+                  We revisit two basic Direct Simulation Monte Carlo Methods to model aggregation kinetics and extend them for aggregation processes with collisional fragmentation (shattering). We test the performance and accuracy of the extended methods and compare their performance with efficient deterministic finite-difference method applied to the same model. We validate the stochastic methods on the test problems and apply them to verify the existence of oscillating regimes in the aggregation-fragmentation kinetics recently detected in deterministic simulations. We confirm the emergence of steady oscillations of densities in such systems and prove the stability of the oscillations with respect to fluctuations and noise.
+                </p>
+                <a href="https://github.com/mousebaiker/SmolOsc/" class="button small alt icon fa-github">Source Code</a>
+                <a href="https://arxiv.org/abs/2103.09481" class="button small alt icon fa-file-alt">Preprint</a>
+              </li>
+
               <li class="box">
                 <h4>Machine Learning-Assisted PAPR Reduction in Massive MIMO </h4>
                 <div class="subheader"> <strong>Aleksei Kalinov</strong>,
@@ -56,8 +88,12 @@
                 </p>
               <a href="https://doi.org/10.1109/LWC.2020.3036909" class="button small alt icon fa-file-alt">Paper</a>
               </li>
+            </ul>
+          </article>
 
-
+          <article>
+            <h2>Projects</h2>
+            <ul class="projects">
               <li class="box">
                 <h4> Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering </h4>
                 <div class="subheader"> <strong>Aleksei Kalinov</strong>,
@@ -79,22 +115,6 @@
                 <a href="documents/Caustics_Poster.pdf" class="button small alt icon fa-file">Poster</a>
               </li>
 
-              <li class="box">
-                <h4> Particle Aggregation and Fragmentation Simulation with Smoluchowskii Equations</h4>
-                <div class="flex flex-2">
-                  <img class="image" src="images/smol_osc.png"/>
-                  <img class="image" src="images/smol_osc.gif"/>
-                </div>
-                <ol>
-                  <li>Exploring new preconditioning schemes for non-stable stationary solutions <a id="cite_1" href="#ref_1">[1]</a>, <a id="cite_2" href="#ref_2">[2]</a> of Smoluchowskii equations. </li>
-                  <li>Theoretical and practical algorithmic improvements of Monte-Carlo algorithms <a id="cite_3" href="#ref_3">[3]</a>
-                  for specific setup of fragmentation problems. </li>
-                </ol>
-
-                <a href="https://github.com/mousebaiker/SmolOsc/" class="button small alt icon fa-github">Source Code</a>
-                <a href="https://arxiv.org/abs/2103.09481" class="button small alt icon fa-file-alt">Preprint</a>
-
-              </li>
 
               <li class="box">
                 <h4> "We're not alone" Shader </h4>
@@ -108,12 +128,6 @@
                 </p>
                 <a href="https://shadertoy.com/view/WllyDn" class="button small alt icon fa-laptop-code">Shadertoy</a>
               </li>
-            </ul>
-          </article>
-
-          <article>
-            <h2>Previous work</h2>
-            <ul class="projects">
               <li class="box">
                 <h4> CNN-based Post-Processing of Synthetic Objects for Image Augmentation</h4>
                 <div class="subheader"> <strong>Aleksei Kalinov</strong>,
