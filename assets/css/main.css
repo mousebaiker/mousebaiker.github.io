@@ -331,6 +331,15 @@
     padding: 3em;
   }
 
+		@media screen and (max-width: 1000px) {
+      .flex-top-left {
+        width:100%;
+      }
+
+      .flex-top-right {
+        width: 100%;
+      }
+		}
 
 
 /* Icon */
@@ -817,7 +826,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #653b84;
+		background: #edc12a;
 		color: #fff;
 		height: 100%;
 		max-width: 80%;
@@ -976,9 +985,14 @@
   }
 
   #bio {
-    padding: 5em 3em 3em 3em;
-
+    padding: 7em 3em 3em 3em;
   }
+
+	@media screen and (max-width: 1000px) {
+    #bio {
+      padding: 0em;
+    }
+	}
 
 /* Resume items */
 
