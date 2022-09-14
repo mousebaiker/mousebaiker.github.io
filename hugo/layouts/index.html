@@ -1,0 +1,57 @@
+{{ define "main" }}
+	<!-- Banner -->
+  <section id="top_card" class="flex" >
+		<div id="banner" class="flex-top-left">
+      <div id="photo_card">
+        {{ $asset := resources.Get "/imgs/photo_small.jpg" }}
+        <img id="photo" src="{{ $asset.RelPermalink }}">
+				<h1>Aleksei Kalinov</h1>
+
+        <ul class="icons">
+          <li><a href="mailto:mousebaiker@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="https://vk.com/mousebaiker" class="icon fa-vk"><span class="label">VK</span></a></li>
+          <li><a href="https://bitbucket.org/mousebaiker" class="icon fa-bitbucket"><span class="label">BitBucket</span></a></li>
+          <li><a href="https://github.com/mousebaiker" class="icon fa-github"><span class="label">Github</span></a></li>
+        </ul>
+      </div>
+		</div>
+    <section id="bio" class="wrapper flex-top-right">
+      <article class="inner">
+        <header>
+          <h2> Short Bio </h2>
+        </header>
+
+        {{.Content}}
+
+      </article>
+    </section>
+  </section>
+
+	<section class="wrapper">
+		<div class="inner">
+			<header class="align-center">
+				<h2>Research & Projects</h2>
+			</header>
+
+
+      <article class="subsection">
+        <h2>Publications</h2>
+        {{ partial "publications.html" . }}
+      </article>
+
+      <article class="subsection">
+        <h2>Talks</h2>
+        {{ partial "talks.html" . }}
+      </article>
+
+      <article class="subsection">
+        <h2>Theses</h2>
+        {{ partial "theses.html" . }}
+      </article>
+
+      <article class="subsection">
+        <h2>Exploratory Projects</h2>
+        {{ partial "projects.html" . }}
+      </article>
+  </section>
+{{ end }}

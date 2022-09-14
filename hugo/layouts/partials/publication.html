@@ -1,0 +1,31 @@
+<li class="flex box">
+  <div class="project-image">
+    {{ $asset := resources.Get (.Params.image) }}
+    {{ $img := $asset.Fit "600x400" }}
+    <img class="image" src="{{ $img.RelPermalink }}"/>
+  </div>
+  <div class="project-info">
+    <h4> {{.Params.Title}} </h4>
+    <div class="subheader">
+      {{$num_authors := (len .Params.authors)}}
+      {{$shared := isset .Params "shared"}}
+      {{ range $idx, $author := .Params.authors }}
+        {{- if eq $author "Aleksei Kalinov" -}}
+          <strong>{{- $author -}}</strong>
+        {{- else -}}
+          {{ $author -}}
+        {{- end -}}
+        {{- if $shared -}}
+        <sup>*</sup>
+        {{- end -}}
+        {{ if (ne (add $idx 1) $num_authors ) -}}
+        ,
+        {{ end -}}
+      {{ end }}
+    </div>
+    <div class="journal"> <i>{{- .Params.journal -}}.</i> {{ .Date.Format "2006" -}} </div>
+    {{ range $link := .Params.links }}
+      <a href="{{ $link.href }}" class="button small alt icon {{ $link.icon }}">{{- $link.text -}}</a>
+    {{ end }}
+  </div>
+</li>

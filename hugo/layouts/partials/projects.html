@@ -1,0 +1,5 @@
+<ul class="projects">
+  {{- range where .Site.RegularPages "Type" "projects" -}}
+    {{ partial "publication.html" .}}
+  {{ end }}
+</ul>
