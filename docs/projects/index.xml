@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Aleksei Kalinov</title>
+    <link>http://example.org/projects/</link>
+    <description>Recent content in Projects on Aleksei Kalinov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;We&#39;re not alone&#34; Shader</title>
+      <link>http://example.org/projects/alienshader/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/alienshader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolutional Networks Modifications </title>
+      <link>http://example.org/projects/dropedge/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/dropedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WESPE Paper Reproduction </title>
+      <link>http://example.org/projects/wespe/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/wespe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skin simulation model</title>
+      <link>http://example.org/projects/skin/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/skin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

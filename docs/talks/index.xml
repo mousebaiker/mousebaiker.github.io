@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Aleksei Kalinov</title>
+    <link>http://example.org/talks/</link>
+    <description>Recent content in Talks on Aleksei Kalinov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Direct Simulation Monte Carlo and Oscillations in Aggregation-Fragmentation Kinetics</title>
+      <link>http://example.org/talks/mcqmc2022/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/mcqmc2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering</title>
+      <link>http://example.org/talks/caustics/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/caustics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

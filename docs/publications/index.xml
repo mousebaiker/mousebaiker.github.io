@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Aleksei Kalinov</title>
+    <link>http://example.org/publications/</link>
+    <description>Recent content in Publications on Aleksei Kalinov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Direct Simulation Monte Carlo for New Regimes in Aggregation-Fragmentation Kinetics</title>
+      <link>http://example.org/publications/dsmc/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/dsmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CarneliNet: Neural Mixture Model for Automatic Speech Recognition</title>
+      <link>http://example.org/publications/carnelinet/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/carnelinet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning-Assisted PAPR Reduction in Massive MIMO </title>
+      <link>http://example.org/publications/papr/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/papr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

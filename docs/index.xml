@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aleksei Kalinov</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Aleksei Kalinov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Direct Simulation Monte Carlo for New Regimes in Aggregation-Fragmentation Kinetics</title>
+      <link>http://example.org/publications/dsmc/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/dsmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Thu, 21 Jul 2022 13:17:29 +0300</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Simulation Monte Carlo and Oscillations in Aggregation-Fragmentation Kinetics</title>
+      <link>http://example.org/talks/mcqmc2022/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/mcqmc2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CarneliNet: Neural Mixture Model for Automatic Speech Recognition</title>
+      <link>http://example.org/publications/carnelinet/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/carnelinet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering</title>
+      <link>http://example.org/talks/caustics/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/caustics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning-Assisted PAPR Reduction in Massive MIMO </title>
+      <link>http://example.org/publications/papr/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/publications/papr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;We&#39;re not alone&#34; Shader</title>
+      <link>http://example.org/projects/alienshader/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/alienshader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Convolutional Networks Modifications </title>
+      <link>http://example.org/projects/dropedge/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/dropedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNN-based Post-Processing of Synthetic Objects for Image Augmentation</title>
+      <link>http://example.org/theses/syntcnn/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/theses/syntcnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WESPE Paper Reproduction </title>
+      <link>http://example.org/projects/wespe/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/wespe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skin simulation model</title>
+      <link>http://example.org/projects/skin/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/skin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
