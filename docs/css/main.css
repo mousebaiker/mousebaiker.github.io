@@ -781,7 +781,7 @@
 /* Banner */
 
 	#banner {
-		padding: 10em 0 1em 0;
+		padding: 4em 0 1em 0;
 		/* background-image: url('../../images/polys4.jpg');  */
 		/* background-size: cover;
 		background-position: top;
@@ -816,7 +816,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 10em 2em 1em 2em;
+				padding: 4em 2em 1em 2em;
 			}
 
 		}
@@ -832,7 +832,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 8em 1.5em 4em 1.5em;
+				padding: 4em 1.5em 4em 1.5em;
 			}
 
 				#banner h1 {
@@ -848,7 +848,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 1.5em 1em 1.5em;
+				padding: 4em 1.5em 1em 1.5em;
 			}
 
 		}
@@ -862,7 +862,7 @@
   }
 
   #bio {
-    padding: 7em 3em 3em 3em;
+    padding: 4em 3em 3em 3em;
   }
 
 	@media screen and (max-width: 1000px) {
