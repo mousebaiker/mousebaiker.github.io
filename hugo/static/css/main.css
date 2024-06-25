@@ -164,7 +164,7 @@
 
 	p {
     font-size: 16pt;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -446,7 +446,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 		padding-left: 1em;
     font-size: 16pt;
 	}
@@ -637,6 +637,11 @@
       }
 		}
 
+  .project-title {
+    text-align: left;
+	font-size: 1.2em;
+  }
+  
   ul.resume_item {
     list-style: none;
   }
@@ -781,7 +786,7 @@
 /* Banner */
 
 	#banner {
-		padding: 4em 0 1em 0;
+		padding: 2em 0 0em 0;
 		/* background-image: url('../../images/polys4.jpg');  */
 		/* background-size: cover;
 		background-position: top;
@@ -856,13 +861,13 @@
 /* Photo on main */
 
   #photo {
-    width: 300px;
+    width: 250px;
     margin-bottom: 3em;
     border-radius: 55px;
   }
 
   #bio {
-    padding: 4em 3em 3em 3em;
+    padding: 2em 3em 0em 0em;
   }
 
 	@media screen and (max-width: 1000px) {
@@ -936,7 +941,7 @@
 /* Sections */
 
 	section.wrapper, article.wrapper {
-		padding: 3em 0 0 0;
+		padding: 0em 0 0 0;
     text-align: justify;
 	}
 
@@ -946,8 +951,7 @@
     }
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
-      text-align: center;
+			text-align: center;
 		}
 
 			section.wrapper header h2, article.wrapper header h2 {

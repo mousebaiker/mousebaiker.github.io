@@ -5,12 +5,13 @@
     <img class="image" src="{{ $img.RelPermalink }}"/>
   </div>
   <div class="project-info">
-    <h4> {{.Params.Title}} </h4>
+    <h4 class="project-title"> {{.Params.Title}} </h4>
     <div class="subheader">
       {{$num_authors := (len .Params.authors)}}
       {{$shared := isset .Params "shared"}}
+      {{$joint := isset .Params "joint"}}
       {{ range $idx, $author := .Params.authors }}
-        {{- if eq $author "Aleksei Kalinov" -}}
+        {{- if or (eq $author "Aleksei Kalinov") (eq $author "Aleksei Kalinov*") -}}
           <strong>{{- $author -}}</strong>
         {{- else -}}
           {{ $author -}}
@@ -24,6 +25,11 @@
       {{ end }}
     </div>
     <div class="journal"> <i>{{- .Params.journal -}}.</i> {{ .Date.Format "2006" -}} </div>
+    {{- if $joint -}}
+    <div> 
+      * Authors contributed equivally.
+    </div>
+    {{- end -}}
     {{ range $link := .Params.links }}
       <a href="{{ $link.href }}" class="button small alt icon {{ $link.icon }}">{{- $link.text -}}</a>
     {{ end }}
