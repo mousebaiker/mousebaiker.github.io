@@ -1,10 +1,11 @@
 {{ define "main" }}
-<!-- Banner -->
-<section id="top_card" class="flex">
-  <div id="banner" class="flex-top-left">
-    <div id="photo_card">
-      {{ $asset := resources.Get "/imgs/IMG_8773_cropped.JPG" }}
-      <img id="photo" src="{{ $asset.RelPermalink }}">
+	<!-- Banner -->
+  <section id="top_card" class="flex" >
+		<div id="banner" class="flex-top-left">
+      <div id="photo_card">
+        {{ $asset := resources.Get "/imgs/IMG_8773_cropped.JPG" }}
+        <img id="photo" src="{{ $asset.RelPermalink }}" loading="lazy">
+				<h1>Aleksei Kalinov</h1>
 
       <ul class="icons">
         <li><a href="mailto:mousebaiker@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>

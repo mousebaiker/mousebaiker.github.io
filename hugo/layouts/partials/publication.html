@@ -2,7 +2,7 @@
   <div class="project-image">
     {{ $asset := resources.Get (.Params.image) }}
     {{ $img := $asset.Fit "600x400" }}
-    <img class="image" src="{{ $img.RelPermalink }}"/>
+    <img class="image" src="{{ $img.RelPermalink }}" loading="lazy"/>
   </div>
   <div class="project-info">
     <h4 class="project-title"> {{.Params.Title}} </h4>
