@@ -8,6 +8,7 @@
 :root {
 	--highlight-color: #edc12a;
 	--accent-color: #5f2aed;
+	--text-font-size: 13pt;
 }
 
 /* Reset */
@@ -202,68 +203,13 @@ select,
 textarea {
 	color: #232323;
 	font-family: "Titillium Web", Arial, Helvetica, sans-serif;
-	font-size: 16pt;
+	font-size: 11pt;
 	font-weight: 300;
 	line-height: 1.65;
 }
 
-@media screen and (max-width: 1680px) {
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 11pt;
-	}
-
-}
-
-@media screen and (max-width: 1280px) {
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 11pt;
-	}
-
-}
-
-@media screen and (max-width: 980px) {
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 12pt;
-	}
-
-}
-
-@media screen and (max-width: 736px) {
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 12pt;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 12pt;
-	}
-
-}
 
 a {
-	color: #333333;
 	text-decoration: underline;
 }
 
@@ -283,7 +229,7 @@ i {
 }
 
 p {
-	font-size: 16pt;
+	font-size: var(--text-font-size);
 	margin: 0 0 0.2em 0;
 }
 
@@ -394,7 +340,7 @@ hr.major {
 }
 
 .inner {
-	max-width: min(150em, 90%);
+	max-width: min(150em, 75%);
 	margin: 0 auto;
 }
 
@@ -448,7 +394,7 @@ hr.major {
 	padding: 3em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 	.flex-top-left {
 		width: 100%;
 	}
@@ -465,7 +411,7 @@ hr.major {
 	text-decoration: none;
 	border-bottom: none;
 	position: relative;
-	/* color: #fff; */
+	color: #333333;
 	font-size: 0.8em;
 }
 
@@ -580,7 +526,7 @@ ul {
 	list-style: disc;
 	margin: 0 0 0em 0;
 	padding-left: 1em;
-	font-size: 16pt;
+	font-size: var(--text-font-size);
 }
 
 ul li {
@@ -730,7 +676,6 @@ ul.projects {
 }
 
 ul.projects>li {
-	font-size: 16pt;
 	margin-top: 1em;
 	padding: 0.0em 1em;
 }
@@ -760,7 +705,7 @@ ul.projects .project-info {
 	width: 67%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 	ul.projects .project-image {
 		width: 100%;
 	}
@@ -908,10 +853,6 @@ dl dd {
 
 }
 
-@media screen and (max-width: 736px) {}
-
-@media screen and (max-width: 480px) {}
-
 /* Banner */
 
 #banner {
@@ -934,68 +875,40 @@ dl dd {
 	margin-bottom: 1.75em;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-	#banner {
-		background-attachment: scroll;
-	}
-
-}
-
-@media screen and (max-width: 1280px) {
-
-	#banner {
-		padding: 2em 2em 1em 2em;
-	}
-
-}
 
 @media screen and (max-width: 980px) {
 
 	#banner {
-		background-attachment: scroll;
+		padding: 0em 2em 1em 2em;
 	}
 
 }
 
-@media screen and (max-width: 736px) {
 
-	#banner {
-		padding: 2em 1.5em 4em 1.5em;
-	}
-
-	#banner h1 {
-		font-size: 2.5em;
-	}
-
-	#banner p {
-		font-size: .9em;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-
-	#banner {
-		padding: 2em 1.5em 1em 1.5em;
-	}
-
-}
 
 /* Photo on main */
 
 #photo {
 	width: 200px;
-	margin-bottom: 2em;
-	margin-top: 1em;
+	margin-top: 3.5em;
 	border-radius: 65px;
+}
+
+@media screen and (max-width: 980px) {
+
+	#photo {
+		width: 200px;
+		margin-top: 1em;
+		border-radius: 65px;
+	}
+
 }
 
 #bio {
 	padding: 2em 3em 0em 0em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 	#bio {
 		padding: 0em;
 	}
@@ -1090,7 +1003,7 @@ article.wrapper header {
 section.wrapper header h2,
 article.wrapper header h2 {
 	font-size: 2.75em;
-	margin: 0 0 .5em 0;
+	margin: 0 0 0 0;
 }
 
 section.wrapper header p,

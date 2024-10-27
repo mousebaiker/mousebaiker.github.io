@@ -1,16 +1,15 @@
 {{ define "main" }}
 	<!-- Banner -->
-  <section id="top_card" class="flex" >
+  <section id="top_card" class="flex inner" >
 		<div id="banner" class="flex-top-left">
       <div id="photo_card">
         {{ $asset := resources.Get "/imgs/IMG_8773_cropped.JPG" }}
         <img id="photo" src="{{ $asset.RelPermalink }}" loading="lazy">
-				<h1>Aleksei Kalinov</h1>
 
       <ul class="icons">
         <li><a href="mailto:mousebaiker@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
         <li><a href="https://scholar.google.com/citations?user=iyPrfM0AAAAJ&hl=ru" class="icon fa-graduation-cap"><span
-              class="label">VK</span></a></li>
+              class="label">Google Scholar</span></a></li>
         <li><a href="https://bitbucket.org/mousebaiker" class="icon fa-bitbucket"><span
               class="label">BitBucket</span></a></li>
         <li><a href="https://github.com/mousebaiker" class="icon fa-github"><span class="label">Github</span></a></li>
@@ -18,7 +17,7 @@
     </div>
   </div>
   <section id="bio" class="wrapper flex-top-right">
-    <article class="inner">
+    <article>
       <header>
         <h2> Aleksei Kalinov </h2>
       </header>
