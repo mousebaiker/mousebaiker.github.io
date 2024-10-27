@@ -4,38 +4,17 @@
 			<header class="align-center">
 				<h2>Resume</h2>
         <a href="/documents/Kalinov_Resume.pdf" class="button alt icon fa-file-pdf">PDF Version</a>
-        <a href="/documents/Kalinov_CV.pdf" class="button alt icon fa-file-alt">Academic CV</a>
         <a href="https://www.linkedin.com/in/aleksei-kalinov" class="button alt icon fa-linkedin">LinkedIn</a>
 
 
-			</header>
-
+			 </header>
+<!--
       <article>
         <h2>Experience</h2>
         <ul class="resume_item">
-          <li>
-            <div class="item_title flex">
-              <div>
-                <div class='title'> Deep Learning Research Intern </div>
-                <div class='company'> <a href="https://nvidia.com"> NVIDIA </a> </div>
-              </div>
-              <div class="right-side">
-                <div class='place'> USA (Remote)</div>
-                <div class='time'> February 2021–Present </div>
-              </div>
-            </div>
-
-            <ul>
-              <li>Proposed CarneliNet, a new speech recognition model with adjustable inference resource requirements.</li>
-              <li>Sped up training of falgship model by 30% with efficient masking and automatic mixed precision tweaks.</li>
-              <li>Contributor to the NVIDIA's NeMo open source project for conversational AI.</li>
-              <li class="languages"> Python, PyTorch </li>
-            </ul>
-
-            <a href="https://github.com/NVIDIA/NeMo/pulls?q=is%3Apr+author%3Amousebaiker" class="button small alt icon fa-github">NeMo contributions</a>
-            <a href="https://arxiv.org/abs/2107.10708" class="button small alt icon fa-file">Preprint</a>
-
-          </li>
+          {{- range where .Site.RegularPages "Section" "industry" -}}
+            {{ partial "experience.html" .}}
+          {{ end }}
 
           <li>
             <div class="item_title flex">
@@ -242,6 +221,6 @@
             </div>
           </li>
         </ul>
-      </article>
-	</section>
+      </article>-->
+	</section> 
 {{ end }}
