@@ -682,6 +682,7 @@ ul.projects>li {
 
 ul.projects p {
 	margin: 0em;
+	padding-left: 0;
 }
 
 ul.projects .subheader {
