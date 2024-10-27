@@ -18,3 +18,6 @@ at [NVIDIA](https://nvidia.com/en-us) and [Google](https://about.google).
 - M.Sc. in Computer Science and Mathematics with Honors from [Skoltech](https://skoltech.ru), advised by
 [Sergey Rykovanov](https://scholar.google.com/citations?user=ndq0Kw4AAAAJ&hl=ru)
 - B.Sc. in Applied Mathematics and Computer Science  with Honors from [Higher School of Economics](https://hse.ru/en/).
+
+**Resume:** [in PDF format](/documents/Kalinov_Resume.pdf)
+
