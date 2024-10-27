@@ -4,107 +4,152 @@
     <title>Aleksei Kalinov</title>
     <link>http://example.org/</link>
     <description>Recent content on Aleksei Kalinov</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Material Mesh-Based Surface Tracking with Implicit Topology Changes</title>
+      <link>http://example.org/talks/nyu2024/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/nyu2024/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Multi-Material Mesh-Based Surface Tracking with Implicit Topology Changes</title>
       <link>http://example.org/publications/sdtopofixer/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/sdtopofixer/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Error Feedback Can Accurately Compress Preconditioners</title>
       <link>http://example.org/publications/errorfeedback/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/errorfeedback/</guid>
       <description></description>
     </item>
+    
+    <item>
+      <title>Bubble Up: Simulating Large-Scale Dynamic Foams and Fluids</title>
+      <link>http://example.org/resume/industry/nvidia_audio/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/resume/industry/nvidia_audio/</guid>
+      <description> Proposed CarneliNet, a new speech recognition model with adjustable inference resource requirements. Sped up training of falgship model by 30% with efficient masking and automatic mixed precision tweaks. </description>
+    </item>
+    
     <item>
       <title>Bubble Up: Simulating Large-Scale Dynamic Foams and Fluids</title>
       <link>http://example.org/talks/bubbleup/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/bubbleup/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Direct Simulation Monte Carlo for New Regimes in Aggregation-Fragmentation Kinetics</title>
       <link>http://example.org/publications/dsmc/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/dsmc/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Resume</title>
       <link>http://example.org/resume/</link>
       <pubDate>Thu, 21 Jul 2022 13:17:29 +0300</pubDate>
+      
       <guid>http://example.org/resume/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Direct Simulation Monte Carlo and Oscillations in Aggregation-Fragmentation Kinetics</title>
       <link>http://example.org/talks/mcqmc2022/</link>
-      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/mcqmc2022/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>CarneliNet: Neural Mixture Model for Automatic Speech Recognition</title>
       <link>http://example.org/publications/carnelinet/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/carnelinet/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering</title>
       <link>http://example.org/talks/caustics/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/caustics/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Machine Learning-Assisted PAPR Reduction in Massive MIMO </title>
       <link>http://example.org/publications/papr/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/papr/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>&#34;We&#39;re not alone&#34; Shader</title>
       <link>http://example.org/projects/alienshader/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/projects/alienshader/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Graph Convolutional Networks Modifications </title>
       <link>http://example.org/projects/dropedge/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/projects/dropedge/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>CNN-based Post-Processing of Synthetic Objects for Image Augmentation</title>
       <link>http://example.org/theses/syntcnn/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/theses/syntcnn/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>WESPE Paper Reproduction </title>
       <link>http://example.org/projects/wespe/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/projects/wespe/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Skin simulation model</title>
       <link>http://example.org/projects/skin/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/projects/skin/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>

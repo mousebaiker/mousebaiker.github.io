@@ -4,44 +4,53 @@
     <title>Publications on Aleksei Kalinov</title>
     <link>http://example.org/publications/</link>
     <description>Recent content in Publications on Aleksei Kalinov</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-Material Mesh-Based Surface Tracking with Implicit Topology Changes</title>
       <link>http://example.org/publications/sdtopofixer/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/sdtopofixer/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Error Feedback Can Accurately Compress Preconditioners</title>
       <link>http://example.org/publications/errorfeedback/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/errorfeedback/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Direct Simulation Monte Carlo for New Regimes in Aggregation-Fragmentation Kinetics</title>
       <link>http://example.org/publications/dsmc/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/dsmc/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>CarneliNet: Neural Mixture Model for Automatic Speech Recognition</title>
       <link>http://example.org/publications/carnelinet/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/carnelinet/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Machine Learning-Assisted PAPR Reduction in Massive MIMO </title>
       <link>http://example.org/publications/papr/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/publications/papr/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>

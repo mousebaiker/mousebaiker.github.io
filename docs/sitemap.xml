@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/talks/nyu2024/</loc>
+    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/talks/</loc>
+    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/publications/sdtopofixer/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,10 +17,13 @@
     <loc>http://example.org/publications/errorfeedback/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://example.org/resume/industry/nvidia_audio/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/talks/bubbleup/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/talks/</loc>
+    <loc>http://example.org/resume/</loc>
     <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/publications/dsmc/</loc>

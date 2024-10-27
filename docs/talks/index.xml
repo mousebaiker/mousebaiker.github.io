@@ -4,30 +4,44 @@
     <title>Talks on Aleksei Kalinov</title>
     <link>http://example.org/talks/</link>
     <description>Recent content in Talks on Aleksei Kalinov</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Material Mesh-Based Surface Tracking with Implicit Topology Changes</title>
+      <link>http://example.org/talks/nyu2024/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/talks/nyu2024/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Bubble Up: Simulating Large-Scale Dynamic Foams and Fluids</title>
       <link>http://example.org/talks/bubbleup/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/bubbleup/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Direct Simulation Monte Carlo and Oscillations in Aggregation-Fragmentation Kinetics</title>
       <link>http://example.org/talks/mcqmc2022/</link>
-      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/mcqmc2022/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Distributed Numerical Modelling of Higher-Dimensional Caustics in Compton Scattering</title>
       <link>http://example.org/talks/caustics/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>http://example.org/talks/caustics/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>
