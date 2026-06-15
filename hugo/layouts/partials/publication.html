@@ -30,6 +30,11 @@
       * Authors contributed equivally.
     </div>
     {{- end -}}
+    {{ range $highlight := .Params.highlights }}
+    <div>
+      <a href="{{ $highlight.href }}" class="button alt highlight icon {{ $highlight.icon }}">{{- $highlight.text -}}</a>
+    </div>
+    {{ end }}
     {{ range $link := .Params.links }}
       <a href="{{ $link.href }}" class="button small alt icon {{ $link.icon }}">{{- $link.text -}}</a>
     {{ end }}

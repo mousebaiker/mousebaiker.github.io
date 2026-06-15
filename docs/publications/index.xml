@@ -6,8 +6,15 @@
     <description>Recent content in Publications on Aleksei Kalinov</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://example.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physics-inspired Procedural Texturing of Extremely Deformable Surfaces</title>
+      <link>http://example.org/publications/tttextures/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://example.org/publications/tttextures/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Multi-Material Mesh-Based Surface Tracking with Implicit Topology Changes</title>
       <link>http://example.org/publications/sdtopofixer/</link>
