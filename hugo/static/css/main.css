@@ -681,6 +681,11 @@ ul.projects>li {
 	padding: 0.0em 1em;
 }
 
+ul.projects.talks>li {
+	margin-top: 0.5em;
+	padding: 0.0em 3em;
+}
+
 ul.projects p {
 	margin: 0em;
 	padding-left: 0;
@@ -720,6 +725,32 @@ ul.projects .project-info {
 .project-title {
 	text-align: left;
 	font-size: 1.2em;
+}
+
+.talk-image {
+	width: 10%;
+
+}
+
+.talk-image img {
+	border-radius: 10pt;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.talk-info {
+	width: 85%;
+}
+
+@media screen and (max-width: 980px) {
+	.talk-image {
+		display: none;
+	}
+
+	.talk-info {
+		width: 100%;
+	}
 }
 
 ul.resume_item {

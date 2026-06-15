@@ -1,5 +1,5 @@
-<ul class="projects">
+<ul class="projects talks">
   {{- range where .Site.RegularPages "Type" "talks" -}}
-    {{ partial "publication.html" .}}
+    {{ partial "talk.html" .}}
   {{ end }}
 </ul>

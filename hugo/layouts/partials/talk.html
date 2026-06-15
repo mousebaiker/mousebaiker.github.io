@@ -1,0 +1,12 @@
+<li class="flex">
+  <div class="talk-image">
+    {{ $asset := resources.Get (.Params.image) }}
+    {{ $img := $asset.Fit "90x60" }}
+    <img class="image" src="{{ $img.RelPermalink }}" loading="lazy"/>
+  </div>
+  <div class="talk-info">
+    <div class="project-title"> {{.Params.Title}} 
+    </div>
+     <i>{{- .Params.journal -}}.</i> {{ .Date.Format "2006" -}} 
+  </div>
+</li>
